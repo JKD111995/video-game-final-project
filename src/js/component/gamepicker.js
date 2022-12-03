@@ -85,10 +85,10 @@ export const Gamepicker = props => {
 				</select>
 
 				<select className="form-select" name="VR Selector">
-				<input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked></input>
-  <label class="form-check-label" for="exampleRadios1">
-    Default radio
-  </label>
+					<input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked></input>
+					<label class="form-check-label" for="exampleRadios1">
+						Default radio
+					</label>
 				</select> 
 
 			</form>
