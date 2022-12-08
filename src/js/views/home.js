@@ -14,8 +14,8 @@ export const Home = props => {
 		<br/>
 	{store.res.map((game, index) => {
 		return (
-			<div key={index}>
-				<h1>{game.name}</h1>
+			<div key={index} className="game-list">
+				<h3>{game.name}</h3>
 				<p>
 					ESRB:
 					{game.esrb_rating

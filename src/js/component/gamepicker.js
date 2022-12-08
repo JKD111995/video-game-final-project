@@ -48,7 +48,7 @@ export const Gamepicker = props => {
 	// }, [query]);
 	return (
 		<div className="text-center mt-5">
-			<form className="d-flex justify-content-evenly">
+			<form className="d-flex">
 
 				<select className="form-select" name="genre">
 					<option onClick={() => req("genre", "")} value="Genre">Genres</option>
