@@ -22,22 +22,15 @@ export const Navbar = () => {
             <i className="fa-solid fa-magnifying-glass"></i>
           </button>
         </form>
-        {/* <div className="ml-auto">
-          <p className="text-white text-center">Check out our Github</p>
-          <button className="btn btn-primary mx-2">
-            <a href="https://www.github.com/Th3c0d3d1/" className="text-decoration-none link-light">Steven</a>
-          </button>
-          <button className="btn btn-primary mx-2">
-            <a href="https://www.github.com/ItsLuisT/" className="text-decoration-none link-light">Luis</a>
-          </button>
-          <button className="btn btn-primary mx-2">
-            <a href="https://www.github.com/JKD111995/" className="text-decoration-none link-light">Jacob</a>
-          </button>
-        </div> */}
         <div>
           <Link to="/aboutUs">
             <button className="btn btn-primary">
               <h5>About Us</h5>
+            </button>
+          </Link>
+          <Link to="/">
+            <button className="btn btn-primary">
+              <h5>Log in</h5>
             </button>
           </Link>
         </div>
