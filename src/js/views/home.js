@@ -12,24 +12,26 @@ export const Home = props => {
 		<h1>What are you in the mood for?</h1>
 		<Gamepicker/>
 		<br/>
-	{store.res.map((game, index) => {
+<div className="row">
+{store.res.map((game, index) => {
 		return (
-			<div key={index} className="game-list">
-				<h3>{game.name}</h3>
+			<div key={index} className="col-3 gameCard">
+				
+				{/* <h3>{game.name}</h3>
 				<p>
 					ESRB:
 					{game.esrb_rating
 						? game.esrb_rating.name
 						: "Rating Not available"}
 				</p>
-				<p>Released: {game.released}</p>
+				<p>Released: {game.released}</p> */}
 
 				{/* {/* Bootstrap code. Card layout to display games */}
-				<div class="card" >
+				<div className="card" >
 					<img src={game.background_image} class="card-img-top" alt="..." />
-					<div class="card-body">
-						<h5 class="card-title">{game.name}</h5>
-						<p class="card-text">  ESRB:
+					<div className="card-body">
+						<h5 className="card-title">{game.name}</h5>
+						<p className="card-text">  ESRB:
 							{game.esrb_rating
 								? game.esrb_rating.name
 								: "Rating Not available"}
@@ -39,7 +41,11 @@ export const Home = props => {
 			</div>
 		);
 	})
-	}</div>)
+	}
+</div>
+	</div>
+	
+	)
 
 };
 

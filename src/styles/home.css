@@ -2,11 +2,26 @@ body {
     background-color: rgb(0, 0, 0);
     color: white;
 }
-.card {
-    /* background-color: yellowgreen; */
-    margin: 0px;
+.card-text{
+    font-size:19px;
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+    overflow: hidden;
 }
-.game-list {
-    /* background-color: blueviolet; */
+.card-title {
+    color: black;
+}
+.card-text {
+    color: black;
+}
+.card {
+    margin: 15px;
     
+}
+.gameCard{
+    padding: 0px;
+}
+
+.card-body{
+    height: 150px;
 }

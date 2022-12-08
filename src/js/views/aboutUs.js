@@ -2,8 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 
 import { Context } from "../store/appContext";
-
-import "../../styles/aboutUs.css";
+import styles from "../../styles/aboutUs.css";
 
 export const AboutUs = () => {
   const { store, actions } = useContext(Context);
@@ -16,7 +15,7 @@ export const AboutUs = () => {
         <p>Who we are.</p>
       </div>
       <div className="card-deck d-flex">
-        <div className="card">
+        <div className="card aboutUsCard">
           <img
             className="card-img-top"
             src="https://www.santosfood.com/wp-content/uploads/2020/01/img-7.jpg"
@@ -31,7 +30,7 @@ export const AboutUs = () => {
             </p>
           </div>
         </div>
-        <div className="card">
+        <div className="card aboutUsCard">
           <img
             className="card-img-top"
             src="https://www.traderjoes.com/content/dam/trjo/products/m20701/78963.png"
@@ -45,7 +44,7 @@ export const AboutUs = () => {
             </p>
           </div>
         </div>
-        <div className="card">
+        <div className="card aboutUsCard">
           <img
             className="card-img-top"
             src="https://gamenewsplus.net/wp-content/uploads/2021/02/pokemon-diamond-pearl-remake-to-be-announced-this-week-400x300.jpg"
