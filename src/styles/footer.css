@@ -7,5 +7,12 @@ h5 {
     margin-top: 8px;
 }
 h3 {
-    margin-top: 8px;
+    font-family: "Audiowide";
+    margin-top: 10px;
+}
+.text-white.text-center {
+    margin: 0px;
+}
+.btn.btn-primary {
+    margin-left: 50px;
 }

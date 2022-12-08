@@ -22,11 +22,8 @@ export const Navbar = () => {
             <i className="fa-solid fa-magnifying-glass"></i>
           </button>
         </form>
-        <div className="ml-auto">
+        {/* <div className="ml-auto">
           <p className="text-white text-center">Check out our Github</p>
-          {/* <Link to="/demo">
-            <button className="btn btn-primary mx-2">Steven</button>
-          </Link> */}
           <button className="btn btn-primary mx-2">
             <a href="https://www.github.com/Th3c0d3d1/" className="text-decoration-none link-light">Steven</a>
           </button>
@@ -36,9 +33,13 @@ export const Navbar = () => {
           <button className="btn btn-primary mx-2">
             <a href="https://www.github.com/JKD111995/" className="text-decoration-none link-light">Jacob</a>
           </button>
-          {/* <Link to="/demo">
-            <button className="btn btn-primary mx-2">Jacob</button>
-          </Link> */}
+        </div> */}
+        <div>
+          <Link to="/aboutUs">
+            <button className="btn btn-primary">
+              <h5>About Us</h5>
+            </button>
+          </Link>
         </div>
       </div>
     </nav>
