@@ -28,11 +28,16 @@ export const Navbar = () => {
               <h5>About Us</h5>
             </button>
           </Link>
-          <Link to="/">
+
+          {/* login */}
+
+          <Link to="/logIn">
             <button className="btn btn-primary">
               <h5>Log in</h5>
             </button>
           </Link>
+
+
         </div>
       </div>
     </nav>
