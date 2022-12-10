@@ -33,7 +33,7 @@ export const Navbar = () => {
 
           <Link to="/logIn">
             <button className="btn btn-primary">
-              <h5>Log in</h5>
+              <h5>Log In/Sign Up</h5>
             </button>
           </Link>
 
