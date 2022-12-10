@@ -12,7 +12,7 @@ export const Footer = () => (
         </div>
         <div className="d-flex col-4">
           <p className="text-white text-center">Check out our Githubs</p>
-          <button className="btn btn-primary">
+          <button className="btn btn-outline-primary">
             <a
               href="https://www.github.com/Th3c0d3d1/"
               className="text-decoration-none link-light"
@@ -20,7 +20,7 @@ export const Footer = () => (
               Steven
             </a>
           </button>
-          <button className="btn btn-primary">
+          <button className="btn btn-outline-primary">
             <a
               href="https://www.github.com/ItsLuisT/"
               className="text-decoration-none link-light"
@@ -28,7 +28,7 @@ export const Footer = () => (
               Luis
             </a>
           </button>
-          <button className="btn btn-primary">
+          <button className="btn btn-outline-primary">
             <a
               href="https://www.github.com/JKD111995/"
               className="text-decoration-none link-light"
