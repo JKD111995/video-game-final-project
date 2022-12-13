@@ -11,7 +11,8 @@ h3 {
     margin-top: 10px;
 }
 .text-white.text-center {
-    margin: 0px;
+    padding-top: 23px;
+    
 }
 /* Grow */
 h3 {
@@ -73,3 +74,11 @@ h3:active {
     transform: scaleX(1);
   }
   
+  .d-flex.col-2 {
+    justify-content: right;
+  }
+
+  .d-flex.col-6 {
+    /* justify-content: center; */
+    padding-left: 5%;
+  }

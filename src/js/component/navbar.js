@@ -23,11 +23,11 @@ export const Navbar = () => {
           </button>
         </form>
         <div>
-          <Link to="/aboutUs">
+          {/* <Link to="/aboutUs">
             <button className="btn btn-primary">
               <h5>About Us</h5>
             </button>
-          </Link>
+          </Link> */}
 
           {/* login */}
 
