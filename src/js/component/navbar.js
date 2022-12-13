@@ -23,15 +23,10 @@ export const Navbar = () => {
           </button>
         </form>
         <div>
-          {/* <Link to="/aboutUs">
-            <button className="btn btn-primary">
-              <h5>About Us</h5>
-            </button>
-          </Link> */}
 
           {/* login */}
 
-          <Link to="/logIn">
+          <Link to="/login">
             <button className="btn btn-primary">
               <h5>Log In/Sign Up</h5>
             </button>

@@ -6,7 +6,7 @@ import { Home } from "./views/home";
 import { AboutUs } from "./views/aboutUs";
 import { Single } from "./views/single";
 import injectContext from "./store/appContext";
-import { LogIn } from "./component/logIn";
+import { LogIn } from "./component/login";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
@@ -29,7 +29,7 @@ const Layout = () => {
 						<Route exact path="/AboutUs">
 							<AboutUs />
 						</Route>
-						<Route exact path="/LogIn">
+						<Route exact path="/login">
 							<LogIn />
 						</Route>
 						<Route exact path="/single/:theid">
